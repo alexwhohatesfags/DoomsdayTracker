@@ -303,14 +303,6 @@ button:hover {border-color:var(--primary)}
   font-weight:900;
 }
 
-.day {
-  color:var(--primary);
-  font-size:12px;
-  font-weight:800;
-  letter-spacing:.08em;
-  text-transform:uppercase;
-}
-
 .title {
   font-size:19px;
   font-weight:800;
@@ -515,7 +507,7 @@ footer {
 <script>
 const items = [
 {
-day:1,date:"Oct 1",title:"X-Men",type:"Movie",year:2000,
+day:1,title:"X-Men",type:"Movie",year:2000,
 trivia:"The 2000 film introduced a major modern live-action X-Men lineup including Professor X, Magneto, Wolverine, Storm, Cyclops, Jean Grey and Rogue.",
 pros:"It establishes the mutant-versus-human conflict and the core ideological divide between Xavier and Magneto.",
 cons:"Its shorter runtime means some members of the large ensemble receive limited development.",
@@ -525,7 +517,7 @@ connection:"Patrick Stewart, Ian McKellen, James Marsden and Rebecca Romijn are 
 tags:["CHARACTER DEVELOPMENT","LEGACY / MULTIVERSE CONTEXT"]
 },
 {
-day:2,date:"Oct 2",title:"X2: X-Men United",type:"Movie",year:2003,
+day:2,title:"X2: X-Men United",type:"Movie",year:2003,
 trivia:"An anti-mutant military operation forces Xavier's students and Magneto's group into an uneasy alliance.",
 pros:"It expands the mutant world while giving Wolverine, Nightcrawler and the Xavier/Magneto conflict substantial material.",
 cons:"Its many character threads require the audience to track several groups at once.",
@@ -535,7 +527,7 @@ connection:"Patrick Stewart, Ian McKellen, James Marsden, Rebecca Romijn and Ala
 tags:["CHARACTER DEVELOPMENT","LEGACY / MULTIVERSE CONTEXT"]
 },
 {
-day:3,date:"Oct 3",title:"Captain America: The First Avenger",type:"Movie",year:2011,
+day:3,title:"Captain America: The First Avenger",type:"Movie",year:2011,
 trivia:"The story is primarily set during World War II and follows Steve Rogers from an undersized recruit to Captain America.",
 pros:"It provides Steve's origins, the Tesseract's early MCU history, Bucky Barnes and the roots of Hydra's conflict.",
 cons:"Because much of it is a period adventure, its direct present-day MCU connections are limited until the ending.",
@@ -545,7 +537,7 @@ connection:"",
 tags:["CORE","CHARACTER DEVELOPMENT"]
 },
 {
-day:4,date:"Oct 4",title:"The Avengers",type:"Movie",year:2012,
+day:4,title:"The Avengers",type:"Movie",year:2012,
 trivia:"It is the first MCU film to bring Iron Man, Captain America, Thor, Hulk, Black Widow and Hawkeye together as one team.",
 pros:"It pays off four separate film franchises while establishing the Avengers as an actual working team.",
 cons:"The large ensemble means some heroes receive less individual development than they get in their solo films.",
@@ -555,7 +547,7 @@ connection:"",
 tags:["CORE"]
 },
 {
-day:5,date:"Oct 5",title:"Avengers: Infinity War",type:"Movie",year:2018,
+day:5,title:"Avengers: Infinity War",type:"Movie",year:2018,
 trivia:"Thanos personally seeks the six Infinity Stones while the Avengers and Guardians attempt to stop him.",
 pros:"It connects years of MCU storylines and puts the Infinity Stones at the center of one enormous crossover.",
 cons:"Its huge cast means several character arcs are deliberately left incomplete for Endgame.",
@@ -565,7 +557,7 @@ connection:"",
 tags:["CORE"]
 },
 {
-day:6,date:"Oct 6",title:"Avengers: Endgame",type:"Movie",year:2019,
+day:6,title:"Avengers: Endgame",type:"Movie",year:2019,
 trivia:"The surviving Avengers attempt to reverse the consequences of Thanos' victory.",
 pros:"It concludes major arcs built across the first eleven years and directly closes the Infinity Saga.",
 cons:"Its enormous number of returning characters and callbacks can make it less self-contained than a normal standalone film.",
@@ -575,7 +567,7 @@ connection:"Thor, Ant-Man, Bucky, Sam Wilson and other Infinity Saga characters 
 tags:["CORE","CHARACTER DEVELOPMENT"]
 },
 {
-day:7,date:"Oct 7",title:"Loki (Seasons 1 & 2)",type:"Series",year:"2021–2023",
+day:7,title:"Loki (Seasons 1 & 2)",type:"Series",year:"2021–2023",
 trivia:"Across both seasons, Loki is taken by the Time Variance Authority, discovers the truth behind the organisation, and confronts the fate of branching timelines and the multiverse.",
 pros:"Both seasons deliver a character-driven multiverse story, inventive time-travel concepts and major consequences for the wider MCU.",
 cons:"Its timeline mechanics and dense terminology can be difficult to follow without close attention.",
@@ -585,7 +577,7 @@ connection:"Tom Hiddleston's Loki is officially confirmed for Avengers: Doomsday
 tags:["CORE","CHARACTER DEVELOPMENT","MULTIVERSE / LEGACY"]
 },
 {
-day:8,date:"Oct 8",title:"Shang-Chi and the Legend of the Ten Rings",type:"Movie",year:2021,
+day:8,title:"Shang-Chi and the Legend of the Ten Rings",type:"Movie",year:2021,
 trivia:"Shang-Chi returns to his father's criminal organization and discovers the truth behind the Ten Rings and his family history.",
 pros:"It introduces Shang-Chi, Katy, the Ten Rings and a new branch of MCU mythology.",
 cons:"Its first half is grounded in family drama while its final act shifts into large-scale fantasy.",
@@ -595,7 +587,7 @@ connection:"Shang-Chi/Simu Liu is officially confirmed for Avengers: Doomsday.",
 tags:["CORE","CHARACTER DEVELOPMENT"]
 },
 {
-day:9,date:"Oct 9",title:"Spider-Man: No Way Home",type:"Movie",year:2021,
+day:9,title:"Spider-Man: No Way Home",type:"Movie",year:2021,
 trivia:"Peter asks Doctor Strange to restore his secret identity, but the spell goes wrong and villains from other Spider-Man universes arrive.",
 pros:"It directly connects the MCU Spider-Man to previous cinematic Spider-Man continuities and makes the multiverse central.",
 cons:"Many returning characters and references assume familiarity with earlier Spider-Man films.",
@@ -605,7 +597,7 @@ connection:"Peter Parker's later MCU story continues in Spider-Man: Brand New Da
 tags:["CORE","CHARACTER DEVELOPMENT","MULTIVERSE / LEGACY"]
 },
 {
-day:10,date:"Oct 10",title:"Black Panther: Wakanda Forever",type:"Movie",year:2022,
+day:10,title:"Black Panther: Wakanda Forever",type:"Movie",year:2022,
 trivia:"Wakanda faces pressure after T'Challa's death while Namor and Talokan enter the story as a new major power.",
 pros:"It explores Shuri, Wakanda's succession and the introduction of Namor while expanding the world's political landscape.",
 cons:"The story balances mourning T'Challa with introducing new characters and conflicts.",
@@ -615,7 +607,7 @@ connection:"Shuri, M'Baku and Namor are represented in the announced Doomsday ca
 tags:["CORE","CHARACTER DEVELOPMENT"]
 },
 {
-day:11,date:"Oct 11",title:"Captain America: Brave New World",type:"Movie",year:2025,
+day:11,title:"Captain America: Brave New World",type:"Movie",year:2025,
 trivia:"Sam Wilson has officially taken up the Captain America mantle and becomes involved in an international crisis after meeting President Thaddeus Ross.",
 pros:"It continues Sam's Captain America story after The Falcon and the Winter Soldier.",
 cons:"Its political thriller framework introduces several connected characters and organizations.",
@@ -625,7 +617,7 @@ connection:"Sam Wilson and Joaquin Torres are officially listed in Avengers: Doo
 tags:["CHARACTER DEVELOPMENT","CONTINUATION"]
 },
 {
-day:12,date:"Oct 12",title:"Deadpool & Wolverine",type:"Movie",year:2024,
+day:12,title:"Deadpool & Wolverine",type:"Movie",year:2024,
 trivia:"Wade Wilson is pulled into a multiverse crisis and seeks Wolverine's help, bringing Deadpool into the Marvel Studios MCU era.",
 pros:"It connects Deadpool and Wolverine's Fox-era history with the MCU and unites different Marvel continuities.",
 cons:"Many jokes and appearances work best when the viewer knows the earlier Fox Marvel films.",
@@ -635,7 +627,7 @@ connection:"Channing Tatum's Gambit is officially listed for Avengers: Doomsday.
 tags:["CORE","LEGACY / MULTIVERSE CONTEXT"]
 },
 {
-day:13,date:"Oct 13",title:"Doctor Strange in the Multiverse of Madness",type:"Movie",year:2022,
+day:13,title:"Doctor Strange in the Multiverse of Madness",type:"Movie",year:2022,
 trivia:"Stephen Strange confronts multiverse threats while trying to protect America Chavez, whose power allows travel between universes.",
 pros:"It expands the MCU's alternate-universe concept and follows directly from WandaVision's version of Wanda.",
 cons:"Its fast-moving multiverse plot assumes familiarity with several previous MCU stories.",
@@ -645,7 +637,7 @@ connection:"Patrick Stewart's Professor X appears in this film and is officially
 tags:["CORE","CHARACTER DEVELOPMENT","MULTIVERSE / LEGACY"]
 },
 {
-day:14,date:"Oct 14",title:"Thunderbolts*",type:"Movie",year:2025,
+day:14,title:"Thunderbolts*",type:"Movie",year:2025,
 trivia:"Yelena Belova, Bucky Barnes, Red Guardian, Ghost, Taskmaster and John Walker are brought together by Valentina Allegra de Fontaine.",
 pros:"It assembles characters who previously operated independently and gives them a team dynamic unlike the original Avengers lineup.",
 cons:"The team's conflicting personalities are intentionally central to the story, so cooperation develops slowly.",
@@ -655,7 +647,7 @@ connection:"Yelena, Bucky, U.S. Agent, Red Guardian, Sentry and Ghost are repres
 tags:["CHARACTER DEVELOPMENT"]
 },
 {
-day:15,date:"Oct 15",title:"The Fantastic Four: First Steps",type:"Movie",year:2025,
+day:15,title:"The Fantastic Four: First Steps",type:"Movie",year:2025,
 trivia:"The film introduces Marvel's First Family to the MCU in a retro-futuristic world inspired by the 1960s.",
 pros:"It establishes Reed Richards, Sue Storm, Johnny Storm and Ben Grimm while bringing Galactus and Silver Surfer into the MCU's multiverse-era landscape.",
 cons:"Its alternate-world setting means its relationship to the established MCU requires attention.",
@@ -683,7 +675,7 @@ function render() {
   grid.innerHTML="";
 
   const list=items.filter((x,i)=>{
-    const matches=(x.title+" "+x.type+" "+x.date+" "+x.year)
+    const matches=(x.title+" "+x.type+" "+x.year)
       .toLowerCase().includes(q);
     const visible=!hideWatched||!done.includes(i);
     return matches&&visible;
@@ -716,8 +708,6 @@ function render() {
         </div>
 
         <div>
-          <div class="day">Entry ${x.day} · ${esc(x.date)}</div>
-
           <div class="title">
             ${esc(x.title)}
             <span class="release-year">${esc(x.year)}</span>
